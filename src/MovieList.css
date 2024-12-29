@@ -1,0 +1,34 @@
+/* Movie List Styling */
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Space between movie cards */
+  margin-top: 30px;
+  background-color: #1a1a1a; /* Dark background */
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(155, 0, 255, 0.7); /* Neon purple glow around the container */
+  
+  /* Ensures the movie list takes the full viewport size */
+  min-height: 100vh; /* Full height of the viewport */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* Body Styling to remove any default margin */
+body {
+  margin: 0;
+  overflow: hidden; /* Prevents scrolling */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .movie-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}

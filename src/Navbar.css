@@ -1,0 +1,71 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #1a1a1a; /* Dark background */
+    box-shadow: 0 0 20px rgba(155, 0, 255, 0.8); /* Neon purple glow around navbar */
+    position: fixed;
+    width: 96%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+  
+  /* Logo */
+  .navbar__logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar__logo-img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .navbar__title {
+    font-family: 'Urbanist', sans-serif;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px rgba(155, 0, 255, 0.8);
+  }
+  
+  /* Icons */
+  .navbar__icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .navbar__icon {
+    font-size: 28px;
+    color: #fff;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar__icon:hover {
+    color: #9b00ff; /* Neon purple glow effect */
+  }
+  
+  .navbar__count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #9b00ff; /* Neon purple */
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(155, 0, 255, 0.7); /* Neon glow for count */
+  }
+
+  .xyz{
+    color: #fff;
+  }
+  
